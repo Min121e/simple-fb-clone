@@ -11,7 +11,7 @@ module.exports = {
       'platform-lookaside.fbsbx.com',
       'firebasestorage.googleapis.com',
       'https://www.facebook.com',
-      'https://www.netlify.com/'
+      'https://www.netlify.com'
     ]
   }
 }
