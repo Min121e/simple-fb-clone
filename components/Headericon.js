@@ -6,7 +6,7 @@ const Headericon = ( { Icon, active }) => {
 //         <Icon className={`h-5 text-gray-500 text-center sm:h-7 mx-auto group-hover:text-blue-600 ${active && 'text-blue-600'}`}/>
     <Icon
         className="h-5 text-gray-500 text-center sm:h-7 mx-auto group-hover:text-blue-600"
-        style={{ color: active ? '#3182ce' : '' }}
+        style={{ color: active ? '#3182ce' : '' }};
     />
     </div>
   )
