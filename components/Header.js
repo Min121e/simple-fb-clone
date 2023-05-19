@@ -17,6 +17,7 @@ import {
 } from '@heroicons/react/outline'
 import Headericon from './Headericon'
 import { signOut, useSession } from 'next-auth/react'
+import fb  from '../assets/fb.png'
 
 const Header = () => {
 
@@ -28,7 +29,7 @@ const Header = () => {
         {/* Left */}
         <div className='flex items-center'>
             <Image 
-                src='https://links.papareact.com/5me' 
+                src={fb} 
                 width={40} 
                 height={40} 
                 layout='fixed' 
