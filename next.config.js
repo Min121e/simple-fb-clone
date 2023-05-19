@@ -10,7 +10,8 @@ module.exports = {
       'links.papareact.com',
       'platform-lookaside.fbsbx.com',
       'firebasestorage.googleapis.com',
-      'https://www.facebook.com'
+      'https://www.facebook.com',
+      'https://precious-profiterole-4afe41.netlify.app/'
     ]
   }
 }
