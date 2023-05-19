@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Simple facebook clone app
 
-## Getting Started
+Live page ( [simple-facebook-clone](https://precious-profiterole-4afe41.netlify.app/) )
 
-First, run the development server:
+## Tools used
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- Next JS
+- Tailwind
+- heroiconsv1
+- NextAuth.js
+- Firebase
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About the project
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Authentication: Users can sign in with their Facebook accounts using NextAuth.js. If the user's Facebook account is already signed in on their browser, they will be automatically redirected to the app.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- User Information: Once authenticated, the user's name and profile picture from Facebook will be displayed in the right section of the header and at the top of the sidebar.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Posting: Users can create posts by typing in the input field and pressing enter. They can also choose to upload a picture by clicking on the "Photo/Video" tab below the input field. A mini preview of the selected picture will appear next to the input field. After entering a caption for the picture, the user can hit enter to create a post with a picture.
 
-## Learn More
+- Real-time Storage: Posts are stored in Firebase storage and displayed in real-time. The posts are shown in descending order based on their timestamps.
 
-To learn more about Next.js, take a look at the following resources:
+- Stories: Users can click on stories to view them. The selected story will be displayed, and users can close it by clicking on the cross icon.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Logout: Users can log out by clicking on the logout icon in the header.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Optimized Performance
 
-## Deploy on Vercel
+- The app is designed to minimize waiting time for users. Posts are fetched from Firebase storage in real-time, allowing them to be displayed immediately after the page is rendered.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Please note that this is a simplified version of Facebook and does not include all the features of the actual platform.
