@@ -2,6 +2,8 @@
 
 Live page ( [simple-facebook-clone](https://precious-profiterole-4afe41.netlify.app/) )
 
+The app authentication is currently not working since facebook block my URL but it is still working on localhost. 
+
 ## Tools used
 
 - Next JS
