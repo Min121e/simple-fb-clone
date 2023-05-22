@@ -1,5 +1,7 @@
 # Simple facebook clone app
 
+https://github.com/Min121e/simple-fb-clone/assets/97957887/d0e5ca34-6415-4446-bb05-05d302581fc9
+
 Live page ( [simple-facebook-clone](https://precious-ganache-bba64a.netlify.app/) )
 
 The app authentication is currently not working since facebook block my URL but it is still working on localhost. 
